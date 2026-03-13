@@ -45,7 +45,10 @@ def home():
 @app.post("/predict_excel")
 async def predict_excel(file: UploadFile = File(...)):
 
-    df = pd.read_excel(file.file)
+    if file.filename.endswith(".csv"):
+        df = pd.read_csv(file.file)
+    else:
+        df = pd.read_excel(file.file)
 
     X_processed = preprocess_input(df)
 

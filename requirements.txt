@@ -10,3 +10,7 @@ python-multipart
 openpyxl
 matplotlib
 seaborn
+streamlit
+plotly
+requests
+xlsxwriter

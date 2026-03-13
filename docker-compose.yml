@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+
+  churn-api:
+    build: .
+    container_name: churn_api
+    command: uvicorn api.app:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+
+  churn-dashboard:
+    build: .
+    container_name: churn_dashboard
+    command: streamlit run dashboard/dashboard.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://churn-api:8000/predict_excel
+    depends_on:
+      - churn-api
