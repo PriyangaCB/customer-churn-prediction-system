@@ -131,7 +131,7 @@ churn-prediction-system
 │   └── dashboard.py
 │
 ├── data
-│   └── dataset
+│   └── Bank Customer Churn Prediction.csv
 │
 ├── models
 │   ├── best_model.pkl
@@ -143,6 +143,13 @@ churn-prediction-system
 │   ├── model_performance.csv
 │   └── predictions.xlsx
 │
+├── screenshot
+│   ├── churn_distribution.png
+│   ├── churn_probability_distribution.png
+│   ├── dashboard_overview.png
+│   ├── high_rick_customer.png
+│   └── prediction_results.png
+|
 ├── src
 │   ├── data_loader.py
 │   ├── evaluate.py
