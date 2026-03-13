@@ -5,13 +5,13 @@ An end-to-end **Machine Learning platform** that predicts customer churn using a
 The system accepts **CSV or Excel datasets with flexible column names**, automatically preprocesses the data, compares multiple machine learning models, selects the best performing model, and generates churn predictions with visual insights.
 
 The platform includes:
-
+```
 • Machine Learning training pipeline
 • FastAPI prediction service
 • Interactive Streamlit dashboard
 • Dynamic churn analytics
 • Dockerized deployment
-
+```
 ---
 
 # Project Overview
@@ -19,7 +19,7 @@ The platform includes:
 Customer churn prediction helps businesses identify customers who are likely to leave their service. By predicting churn in advance, companies can take proactive actions to retain valuable customers.
 
 This project builds a **complete churn prediction pipeline** that:
-
+```
 • Accepts datasets in **CSV / Excel format**
 • Automatically **matches flexible column names**
 • Handles **missing values**
@@ -31,11 +31,11 @@ This project builds a **complete churn prediction pipeline** that:
 • Displays **dynamic dashboards**
 • Allows **downloading prediction results**
 • Supports **Docker deployment**
-
+```
 ---
 
 # Key Features
-
+```
 • Automatic dataset ingestion (CSV / Excel)
 • Intelligent column matching for flexible datasets
 • Missing column handling
@@ -48,7 +48,7 @@ This project builds a **complete churn prediction pipeline** that:
 • Top 25 high-risk customers detection
 • Download predicted datasets
 • Fully Dockerized application
-
+```
 ---
 
 # Machine Learning Models Compared
@@ -56,13 +56,13 @@ This project builds a **complete churn prediction pipeline** that:
 The system trains multiple machine learning models and automatically selects the best performing one.
 
 Models evaluated:
-
+```
 • Logistic Regression
 • Random Forest Classifier
 • Gradient Boosting Classifier
 • XGBoost
 • LightGBM
-
+```
 ### Model Performance Comparison
 
 | Model               | Accuracy  | Precision | Recall    | F1 Score  |
