@@ -20,17 +20,17 @@ Customer churn prediction helps businesses identify customers who are likely to 
 
 This project builds a **complete churn prediction pipeline** that:
 ```
-• Accepts datasets in **CSV / Excel format**
-• Automatically **matches flexible column names**
-• Handles **missing values**
-• Performs **data preprocessing**
-• Trains and compares **multiple ML models**
-• Automatically **selects the best performing model**
-• Extracts **top important features**
-• Generates **churn predictions**
-• Displays **dynamic dashboards**
-• Allows **downloading prediction results**
-• Supports **Docker deployment**
+• Accepts datasets in CSV / Excel format
+• Automatically matches flexible column names
+• Handles missing values
+• Performs data preprocessing
+• Trains and compares multiple ML models
+• Automatically selects the best performing model
+• Extracts top important features
+• Generates churn predictions
+• Displays dynamic dashboards
+• Allows downloading prediction results
+• Supports Docker deployment
 ```
 ---
 
