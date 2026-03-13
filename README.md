@@ -79,7 +79,7 @@ The system automatically selects the best model and saves it for production pred
 
 Primary ML library used:
 
-• scikit-learn
+scikit-learn
 
 ---
 
@@ -213,14 +213,14 @@ python train.py
 ```
 
 This will:
-
+```
 • preprocess the dataset
 • train multiple ML models
 • evaluate performance
 • select the best model
 • extract important features
 • save the trained model
-
+```
 Saved artifacts:
 
 ```
@@ -268,13 +268,13 @@ http://localhost:8501
 ```
 
 Users can:
-
+```
 • Upload CSV or Excel files
 • Generate churn predictions
 • View dynamic churn analytics
 • Identify top 25 high-risk customers
 • Download predicted datasets
-
+```
 ---
 
 # Prediction Methods
@@ -286,13 +286,13 @@ The system supports two prediction approaches.
 Upload a CSV or Excel file containing customer data.
 
 The system will:
-
+```
 • automatically match column names
 • preprocess the dataset
 • align required features
 • generate churn predictions
 • visualize churn insights
-
+```
 ---
 
 ### 2. Manual Input Prediction
@@ -312,23 +312,23 @@ Example request:
 ```
 
 The API returns:
-
+```
 • churn prediction
 • churn probability
 • customer risk result
-
+```
 ---
 
 # Dashboard Analytics
 
 The interactive dashboard provides:
-
+```
 • Customer churn distribution
 • Churn probability analysis
 • Business churn metrics
 • Top 25 high-risk customers
 • Dynamic visual insights
-
+```
 Users can also **download prediction results as Excel files**.
 
 ---
@@ -389,12 +389,12 @@ Docker
 ---
 
 # Future Improvements
-
+```
 • Add model explainability using SHAP
 • Deploy system to cloud platforms (AWS / Azure)
 • Add authentication for API access
 • Build automated retraining pipeline
-
+```
 ---
 
 # Author
